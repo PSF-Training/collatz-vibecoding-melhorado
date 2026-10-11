@@ -1,0 +1,20 @@
+{
+  "name": "collatz-vibecoding-melhorado",
+  "version-string": "0.1.0",
+  "description": "Presents Collatz sequences for a series of input numbers.",
+  "dependencies": [
+    "cli11",
+    "catch2"
+  ],
+  "features": {
+    "gui": {
+      "description": "Build the wxWidgets GUI target and its dependency tree.",
+      "dependencies": [
+        {
+          "name": "wxwidgets",
+          "default-features": false
+        }
+      ]
+    }
+  }
+}

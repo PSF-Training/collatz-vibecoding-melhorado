@@ -1,0 +1,13 @@
+# CMake build trees
+/build/
+/build-*/
+
+# vcpkg manifest-mode dependency install
+/vcpkg_installed/
+
+# Editor and tooling artifacts
+.idea/
+.vscode/
+.cache/
+.ccache/
+*.swp
