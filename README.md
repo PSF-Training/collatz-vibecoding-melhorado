@@ -24,6 +24,7 @@ manifest mode; there is nothing to install by hand.
 
 ```bash
 export VCPKG_ROOT=/path/to/vcpkg
+export CMAKE_EXPORT_COMPILE_COMMANDS=ON
 
 cmake --preset debug        # first run installs the vcpkg dependencies
 cmake --build --preset debug
